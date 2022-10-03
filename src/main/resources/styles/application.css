@@ -1,0 +1,275 @@
+.splashScreen_Label{
+    -fx-font-size:16pt;
+    -fx-font-family:"Sans Serif";
+    -fx-font-weight: bold;
+    -fx-text-fill: #1c5130;
+}
+
+.splashScreen_processLabel{
+    -fx-font-size:13pt;
+    -fx-font-family:"Sans Serif";
+    -fx-text-fill: #1c5130;
+}
+
+.splashBackground{
+    -fx-background-color: #ffa34d;
+}
+
+.mainWindowBack{
+    -fx-background-color: #719DE6;
+}
+
+.mainWindowLabel{
+    -fx-font-family:"Sans Serif";
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+    -fx-text-fill: #dee1e8;
+}
+
+.circPositiveMessage{
+    -fx-fill: green;
+}
+
+.circNegativeMessage{
+    -fx-fill: red;
+}
+
+.circMessage{
+    -fx-text-fill: #DEE1E8;
+    -fx-font-size: 18pt;
+    -fx-font-family:"Sans Serif";
+}
+
+.welcomeMainLabel{
+    -fx-font-size: 28pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #DEE1E8;
+}
+
+.welcomePositiveLabel{
+    -fx-font-size: 28pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: green;
+}
+
+.welcomeNegativeLabel{
+    -fx-font-size: 28pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: red;
+}
+
+.welcomeVerifyLabel{
+    -fx-font-size: 28pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: yellow;
+}
+
+.welcomeTextField{
+    -fx-font-size: 28pt;
+    -fx-font-family: "Sans Serif";
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-prompt-text-fill: gray;
+    -fx-alignment: center;
+}
+
+.welcomeProcessButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 28pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #1E90FF;
+}
+
+.welcomeTopUpButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 20pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #00C000;
+}
+
+.welcomeCancelButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 28pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: red;
+}
+
+.welcomeReceiptButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 28pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #00C000;
+}
+
+.menuMainLabel{
+    -fx-font-size: 20pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #DEE1E8;
+    -fx-font-weight: bold;
+}
+
+.menuSubLabel{
+    -fx-font-size: 20pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #DEE1E8;
+}
+
+.menuCancelButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 20pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: Red;
+}
+
+.menuPayButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 20pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #00C000;
+}
+
+.menuButton{
+    -fx-font-size: 8pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #DEE1E8;
+    -fx-background-color: blue;
+    -fx-alignment: center;
+    -fx-pref-width: 80;
+    -fx-pref-height: 80;
+    -fx-word-wrap: break-word;
+}
+
+.menuButtonChosen{
+    -fx-font-size: 8pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #DEE1E8;
+    -fx-background-color:#CE8414;
+    -fx-alignment: center;
+    -fx-pref-width: 80;
+    -fx-pref-height: 80;
+    -fx-word-wrap: break-word;
+}
+
+.payLabel{
+    -fx-font-size: 22pt;
+}
+
+.payLabelNegative{
+    -fx-font-size: 22pt;
+    -fx-text-fill: red;
+}
+
+.payLabelPositive{
+    -fx-font-size: 22pt;
+    -fx-text-fill: green;
+}
+.payCancelButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 18pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: Red;
+}
+
+.payGreenButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 18pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: green;
+}
+
+.paymentSelected {
+    -fx-border-color: green;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
+
+.topUpMainNombLabels{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #dee1e8;
+}
+
+.topUpSubTextField{
+    -fx-font-size: 18pt;
+    -fx-font-family: "Sans Serif";
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-prompt-text-fill: gray;
+    -fx-alignment: center;
+}
+
+.topUpMainSubItalicLabels{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: #dee1e8;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.fingerMain {
+    -fx-border-color: gray;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
+
+.fingerVerify {
+    -fx-border-color: yellow;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
+
+.fingerNotFound {
+    -fx-border-color: red;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
+
+.fingerFound {
+    -fx-border-color: green;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
+
+.registrationSelectorTitle{
+    -fx-font-size: 18pt;
+}
+
+.registrationSelectorTitlePos{
+    -fx-font-size: 18pt;
+    -fx-text-fill: green;
+}
+
+.registrationSelectorTitleNeg{
+    -fx-font-size: 18pt;
+    -fx-text-fill: red;
+}
+
+.SelectedValue {
+    -fx-border-color: green;
+    -fx-border-radius: 30;
+    -fx-border-inserts: 5,5,5,5;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
